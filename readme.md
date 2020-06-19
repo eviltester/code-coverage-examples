@@ -1,6 +1,15 @@
 # Code Coverage Examples
 
+Work in progress set of code coverage sandbox examples.
+
+Done:
+
+- [x] example of jacoco from command line for creating coverage report `mvn clean verify`
+- [x] IntelliJ IDE coverage usage basis notes
+
+
 Todo:
+- simplify statement example to avoid complicated branch conditions
 - examples of different coverage types
 - show difference between test coverage and usage/execution coverage
 - how mocking impacts coverage - more target test coverage, reduced usage/execution coverage

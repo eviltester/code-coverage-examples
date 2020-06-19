@@ -17,13 +17,19 @@ public class StatementCoverageTarget {
         if(value < lower){
             return -1;
         }
-        //if(value > upper){
+        //if(value > upper) {
             return 1;
         //}
 
         // Discuss: changing the complicated if statement (value>=lower && value<=upper)
         //          can reduce complexity and allow more branch coverage
         //          with fewer tests would that be better?
+
         // Discuss: what would I have to do if I re-instated the last if statement?
+        //          e.g. throw a runtime exception?
+        //          and how would that impact my ability to track coverage
     }
+
+    // TODO: simplify the complicated statement and move that to a branch/condition example
+    // Note, we need some 'else' clauses to demonstrate branch coverage
 }
